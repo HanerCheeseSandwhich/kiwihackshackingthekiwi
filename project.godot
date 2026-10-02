@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="Kiwis hacking the hack"
-config/features=PackedStringArray("4.6", "Mobile")
+run/main_scene="res://level_grabby.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+
+[global_group]
+
+bag=""
+junk=""
 
 [physics]
 

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://djcal6ewnp1oj"]
+
+[ext_resource type="Texture2D" uid="uid://c36b018exvups" path="res://textures/kiwiHacksSpaceJunkfolded2.png" id="1_4pfwj"]
+[ext_resource type="Script" uid="uid://chponnsvksury" path="res://draggable_BADjunk.gd" id="2_b2v8u"]
+
+[node name="draggable eevel junk" type="Sprite2D" unique_id=1845412718]
+texture = ExtResource("1_4pfwj")
+script = ExtResource("2_b2v8u")

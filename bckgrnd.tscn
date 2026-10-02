@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://d3s1qppkp4lcr"]
+
+[ext_resource type="Texture2D" uid="uid://b7qypjo18rtyo" path="res://textures/kiwiHacksBackgroundScreen2.png" id="1_yblrr"]
+
+[node name="Node2D" type="Node2D" unique_id=674383449]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1544558352]
+position = Vector2(641.05, 350)
+scale = Vector2(3.8999999, 3.9)
+texture = ExtResource("1_yblrr")

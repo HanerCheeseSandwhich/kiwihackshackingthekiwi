@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bvmevunkipxtc"]
+
+[ext_resource type="Script" uid="uid://cixop4f2itx6i" path="res://meow.gd" id="2_j2q8x"]
+
+[node name="dragging the aesteroid" type="Sprite2D" unique_id=2090110141]
+script = ExtResource("2_j2q8x")

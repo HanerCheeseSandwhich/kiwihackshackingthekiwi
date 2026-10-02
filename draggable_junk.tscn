@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cxnpyllqwjjcy"]
+
+[ext_resource type="Texture2D" uid="uid://d1my75lmnncht" path="res://textures/kiwiHacksSpaceJunkfoldedCollectable1.png" id="1_3o8e2"]
+[ext_resource type="Script" uid="uid://cs41pf2oegy5l" path="res://draggable_junk.gd" id="2_3o8e2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fopm6"]
+radius = 43.104523
+
+[node name="draggable junk" type="Sprite2D" unique_id=1845412718 groups=["junk"]]
+texture = ExtResource("1_3o8e2")
+script = ExtResource("2_3o8e2")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=881571920 groups=["junk"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2076874672]
+shape = SubResource("CircleShape2D_fopm6")
