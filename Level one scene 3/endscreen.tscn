@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://calbbw2w5ykqf"]
+
+[ext_resource type="Texture2D" uid="uid://cjggco7dkwhwh" path="res://Level one scene 3/kiwiHacksEndScreen.png" id="1_4rp2u"]
+[ext_resource type="Script" uid="uid://bv61sj6dwr5lb" path="res://Level one scene 3/endscreen.gd" id="2_1kyft"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=1317617660]
+position = Vector2(635.88885, 320.00003)
+scale = Vector2(3.966667, 3.5333335)
+texture = ExtResource("1_4rp2u")
+script = ExtResource("2_1kyft")

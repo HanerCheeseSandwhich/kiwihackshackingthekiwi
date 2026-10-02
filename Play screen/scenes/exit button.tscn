@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bwyvc52dm6di"]
+
+[ext_resource type="Script" uid="uid://hggecgt5icsy" path="res://Play screen/Scripts/exitbutton.gd" id="1_espk5"]
+[ext_resource type="Texture2D" uid="uid://cu6weikvtgem0" path="res://Play screen/textures/kiwiHacksHomeScreenExitButtonCropped.png" id="1_kop30"]
+
+[node name="ExitButton" type="Node2D" unique_id=284708223]
+script = ExtResource("1_espk5")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=96764537]
+texture_filter = 1
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_kop30")
+texture_pressed = ExtResource("1_kop30")
+texture_hover = ExtResource("1_kop30")
+texture_disabled = ExtResource("1_kop30")
+texture_focused = ExtResource("1_kop30")
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

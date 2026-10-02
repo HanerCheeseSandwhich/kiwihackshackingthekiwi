@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://kh8yt8cq2t02"]
+
+[ext_resource type="PackedScene" uid="uid://487phwi4j6tu" path="res://Play screen/scenes/jb.tscn" id="1_ry06n"]
+[ext_resource type="PackedScene" uid="uid://bwyvc52dm6di" path="res://Play screen/scenes/exit button.tscn" id="2_0d2qn"]
+
+[node name="Node2D" type="Node2D" unique_id=523408972]
+
+[node name="justin bieber" parent="." unique_id=340478057 instance=ExtResource("1_ry06n")]
+
+[node name="ExitButton" parent="." unique_id=284708223 instance=ExtResource("2_0d2qn")]
+position = Vector2(-3.000001, 433)
+scale = Vector2(3.079999, 3.079999)

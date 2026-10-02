@@ -1,0 +1,714 @@
+[gd_scene format=3 uid="uid://s1blsb6wttln"]
+
+[ext_resource type="PackedScene" uid="uid://d3s1qppkp4lcr" path="res://Level one scene 3/bckgrnd.tscn" id="1_dv3uf"]
+[ext_resource type="PackedScene" uid="uid://batj7u81yt73v" path="res://Level one scene 3/bag.tscn" id="2_l6yes"]
+[ext_resource type="PackedScene" uid="uid://m28hj5uaml07" path="res://Level one scene 3/progbar.tscn" id="3_14qdp"]
+[ext_resource type="PackedScene" uid="uid://chm20ep4g8vt3" path="res://Level one scene 3/draggable_BADjunk.tscn" id="4_cj6vo"]
+[ext_resource type="PackedScene" uid="uid://djcal6ewnp1oj" path="res://Level one scene 3/draggable_BADjunk2.tscn" id="5_xd6un"]
+[ext_resource type="PackedScene" uid="uid://cxnpyllqwjjcy" path="res://Level one scene 3/draggable_junk.tscn" id="6_u7p8e"]
+[ext_resource type="PackedScene" uid="uid://bnregbhbcoufj" path="res://Level one scene 3/draggable_BADjunk5.tscn" id="7_tw565"]
+[ext_resource type="PackedScene" uid="uid://cblupugjjh22f" path="res://Level one scene 3/draggable_junkbut4.tscn" id="8_hhvcl"]
+[ext_resource type="PackedScene" uid="uid://de1r5208jd472" path="res://Level one scene 3/draggable_junkbut2.tscn" id="9_j2hqp"]
+[ext_resource type="PackedScene" uid="uid://cf37n2x6axnmb" path="res://Level one scene 3/draggable_BADjunk4.tscn" id="10_esdvl"]
+[ext_resource type="PackedScene" uid="uid://d360gpa7tadux" path="res://Level one scene 3/draggable_junkbut3.tscn" id="11_u61h2"]
+[ext_resource type="PackedScene" uid="uid://calbbw2w5ykqf" path="res://Level one scene 3/endscreen.tscn" id="12_dwjay"]
+
+[node name="level grabby" type="Node2D" unique_id=247506404]
+
+[node name="Node2D" parent="." unique_id=674383449 instance=ExtResource("1_dv3uf")]
+
+[node name="Sprite2D" parent="." unique_id=1187496618 instance=ExtResource("2_l6yes")]
+position = Vector2(667, 416.00003)
+scale = Vector2(2.6722224, 2.6722221)
+
+[node name="AnimatedSprite2D" parent="." unique_id=2127577199 instance=ExtResource("3_14qdp")]
+position = Vector2(261, 590)
+scale = Vector2(2.4666667, 2.4666667)
+
+[node name="draggable eevel junk" parent="." unique_id=1845412718 instance=ExtResource("4_cj6vo")]
+position = Vector2(167, 117)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk2" parent="." unique_id=537652006 instance=ExtResource("5_xd6un")]
+position = Vector2(377, 264)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk" parent="." unique_id=1856011424 instance=ExtResource("6_u7p8e")]
+position = Vector2(79, 430)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk3" parent="." unique_id=1118191753 instance=ExtResource("7_tw565")]
+position = Vector2(610, 100)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk2" parent="." unique_id=286836778 instance=ExtResource("8_hhvcl")]
+position = Vector2(781, 267)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk3" parent="." unique_id=1511541394 instance=ExtResource("9_j2hqp")]
+position = Vector2(1032, 50)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk4" parent="." unique_id=1323914687 instance=ExtResource("10_esdvl")]
+position = Vector2(1053, 414)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk4" parent="." unique_id=912018944 instance=ExtResource("8_hhvcl")]
+position = Vector2(1241, 263)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk5" parent="." unique_id=559197945 instance=ExtResource("7_tw565")]
+position = Vector2(1366, 510)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk6" parent="." unique_id=1172016424 instance=ExtResource("7_tw565")]
+position = Vector2(1508, 109)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk5" parent="." unique_id=1036785466 instance=ExtResource("11_u61h2")]
+position = Vector2(1612, 313)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk7" parent="." unique_id=859677748 instance=ExtResource("10_esdvl")]
+position = Vector2(1863, 92)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk8" parent="." unique_id=1567278374 instance=ExtResource("5_xd6un")]
+position = Vector2(1795, 481)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk9" parent="." unique_id=582940904 instance=ExtResource("4_cj6vo")]
+position = Vector2(1968, -66)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk10" parent="." unique_id=1971082885 instance=ExtResource("5_xd6un")]
+position = Vector2(2178, 81)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk6" parent="." unique_id=230060857 instance=ExtResource("6_u7p8e")]
+position = Vector2(1880, 247)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk11" parent="." unique_id=368455700 instance=ExtResource("7_tw565")]
+position = Vector2(2411, -83)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk7" parent="." unique_id=735042668 instance=ExtResource("8_hhvcl")]
+position = Vector2(2582, 84)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk8" parent="." unique_id=790835662 instance=ExtResource("9_j2hqp")]
+position = Vector2(2833, -133)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk12" parent="." unique_id=734072638 instance=ExtResource("10_esdvl")]
+position = Vector2(2854, 231)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk9" parent="." unique_id=467324614 instance=ExtResource("8_hhvcl")]
+position = Vector2(3042, 80)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk13" parent="." unique_id=1333975711 instance=ExtResource("7_tw565")]
+position = Vector2(3167, 327)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk14" parent="." unique_id=1046617392 instance=ExtResource("7_tw565")]
+position = Vector2(3309, -74)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk10" parent="." unique_id=2087942863 instance=ExtResource("11_u61h2")]
+position = Vector2(3413, 130)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk15" parent="." unique_id=1099325727 instance=ExtResource("10_esdvl")]
+position = Vector2(3664, -91)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk16" parent="." unique_id=1539760715 instance=ExtResource("5_xd6un")]
+position = Vector2(3596, 298)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk17" parent="." unique_id=751186784 instance=ExtResource("4_cj6vo")]
+position = Vector2(3703, 100)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk18" parent="." unique_id=1999264254 instance=ExtResource("5_xd6un")]
+position = Vector2(3913, 247)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk11" parent="." unique_id=1087160884 instance=ExtResource("6_u7p8e")]
+position = Vector2(3615, 413)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk19" parent="." unique_id=756610031 instance=ExtResource("7_tw565")]
+position = Vector2(4146, 83)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk12" parent="." unique_id=952211682 instance=ExtResource("8_hhvcl")]
+position = Vector2(4317, 250)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk13" parent="." unique_id=1276270250 instance=ExtResource("9_j2hqp")]
+position = Vector2(4568, 33)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk20" parent="." unique_id=1223639083 instance=ExtResource("10_esdvl")]
+position = Vector2(4589, 397)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk14" parent="." unique_id=784749821 instance=ExtResource("8_hhvcl")]
+position = Vector2(4777, 246)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk21" parent="." unique_id=1108015890 instance=ExtResource("7_tw565")]
+position = Vector2(4902, 493)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk22" parent="." unique_id=1501855616 instance=ExtResource("7_tw565")]
+position = Vector2(5044, 92)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk15" parent="." unique_id=1278822495 instance=ExtResource("11_u61h2")]
+position = Vector2(5148, 296)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk23" parent="." unique_id=1209063729 instance=ExtResource("10_esdvl")]
+position = Vector2(5399, 75)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk24" parent="." unique_id=1968555043 instance=ExtResource("5_xd6un")]
+position = Vector2(5331, 464)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk25" parent="." unique_id=1157047596 instance=ExtResource("4_cj6vo")]
+position = Vector2(167, 117)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk26" parent="." unique_id=738724231 instance=ExtResource("5_xd6un")]
+position = Vector2(377, 264)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk16" parent="." unique_id=1188725950 instance=ExtResource("6_u7p8e")]
+position = Vector2(79, 430)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk27" parent="." unique_id=1033651062 instance=ExtResource("7_tw565")]
+position = Vector2(610, 100)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk17" parent="." unique_id=1380141899 instance=ExtResource("8_hhvcl")]
+position = Vector2(781, 267)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk18" parent="." unique_id=433369978 instance=ExtResource("9_j2hqp")]
+position = Vector2(1032, 50)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk28" parent="." unique_id=1429272456 instance=ExtResource("10_esdvl")]
+position = Vector2(1053, 414)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk19" parent="." unique_id=785237098 instance=ExtResource("8_hhvcl")]
+position = Vector2(1241, 263)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk29" parent="." unique_id=1439992423 instance=ExtResource("7_tw565")]
+position = Vector2(1366, 510)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk30" parent="." unique_id=1753050486 instance=ExtResource("7_tw565")]
+position = Vector2(1508, 109)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk20" parent="." unique_id=1546263393 instance=ExtResource("11_u61h2")]
+position = Vector2(1612, 313)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk31" parent="." unique_id=225301077 instance=ExtResource("10_esdvl")]
+position = Vector2(1863, 92)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk32" parent="." unique_id=2012444969 instance=ExtResource("5_xd6un")]
+position = Vector2(1795, 481)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk33" parent="." unique_id=123623129 instance=ExtResource("4_cj6vo")]
+position = Vector2(1968, -66)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk34" parent="." unique_id=1227412838 instance=ExtResource("5_xd6un")]
+position = Vector2(2178, 81)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk21" parent="." unique_id=798605636 instance=ExtResource("6_u7p8e")]
+position = Vector2(1880, 247)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk35" parent="." unique_id=1829722552 instance=ExtResource("7_tw565")]
+position = Vector2(2411, -83)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk22" parent="." unique_id=2038421366 instance=ExtResource("8_hhvcl")]
+position = Vector2(2582, 84)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk23" parent="." unique_id=1037455811 instance=ExtResource("9_j2hqp")]
+position = Vector2(2833, -133)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk36" parent="." unique_id=1350247266 instance=ExtResource("10_esdvl")]
+position = Vector2(2854, 231)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk24" parent="." unique_id=1293194663 instance=ExtResource("8_hhvcl")]
+position = Vector2(3042, 80)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk37" parent="." unique_id=525493086 instance=ExtResource("7_tw565")]
+position = Vector2(3167, 327)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk38" parent="." unique_id=1382136705 instance=ExtResource("7_tw565")]
+position = Vector2(3309, -74)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk25" parent="." unique_id=546854412 instance=ExtResource("11_u61h2")]
+position = Vector2(3413, 130)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk39" parent="." unique_id=1332204940 instance=ExtResource("10_esdvl")]
+position = Vector2(3664, -91)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk40" parent="." unique_id=1679430718 instance=ExtResource("5_xd6un")]
+position = Vector2(3596, 298)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk41" parent="." unique_id=1503629775 instance=ExtResource("4_cj6vo")]
+position = Vector2(3703, 100)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk42" parent="." unique_id=990116505 instance=ExtResource("5_xd6un")]
+position = Vector2(3913, 247)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk26" parent="." unique_id=994497463 instance=ExtResource("6_u7p8e")]
+position = Vector2(3615, 413)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk43" parent="." unique_id=1859195371 instance=ExtResource("7_tw565")]
+position = Vector2(4146, 83)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk27" parent="." unique_id=831056488 instance=ExtResource("8_hhvcl")]
+position = Vector2(4317, 250)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk28" parent="." unique_id=114377316 instance=ExtResource("9_j2hqp")]
+position = Vector2(4568, 33)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk44" parent="." unique_id=1423361109 instance=ExtResource("10_esdvl")]
+position = Vector2(4589, 397)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk29" parent="." unique_id=1480445993 instance=ExtResource("8_hhvcl")]
+position = Vector2(4777, 246)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk45" parent="." unique_id=1506995338 instance=ExtResource("7_tw565")]
+position = Vector2(4902, 493)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk46" parent="." unique_id=1109381383 instance=ExtResource("7_tw565")]
+position = Vector2(5044, 92)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk30" parent="." unique_id=176548670 instance=ExtResource("11_u61h2")]
+position = Vector2(5148, 296)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk47" parent="." unique_id=879979802 instance=ExtResource("10_esdvl")]
+position = Vector2(5399, 75)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk48" parent="." unique_id=2080356304 instance=ExtResource("5_xd6un")]
+position = Vector2(5331, 464)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk49" parent="." unique_id=476418468 instance=ExtResource("4_cj6vo")]
+position = Vector2(5673, 107)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk50" parent="." unique_id=310710157 instance=ExtResource("5_xd6un")]
+position = Vector2(5883, 254)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk31" parent="." unique_id=798974109 instance=ExtResource("6_u7p8e")]
+position = Vector2(5585, 420)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk51" parent="." unique_id=397198704 instance=ExtResource("7_tw565")]
+position = Vector2(6116, 90)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk32" parent="." unique_id=1976233097 instance=ExtResource("8_hhvcl")]
+position = Vector2(6287, 257)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk33" parent="." unique_id=106022629 instance=ExtResource("9_j2hqp")]
+position = Vector2(6538, 40)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk52" parent="." unique_id=117439455 instance=ExtResource("10_esdvl")]
+position = Vector2(6559, 404)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk34" parent="." unique_id=774210353 instance=ExtResource("8_hhvcl")]
+position = Vector2(6747, 253)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk53" parent="." unique_id=1641772668 instance=ExtResource("7_tw565")]
+position = Vector2(6872, 500)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk54" parent="." unique_id=725735766 instance=ExtResource("7_tw565")]
+position = Vector2(7014, 99)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk35" parent="." unique_id=278579998 instance=ExtResource("11_u61h2")]
+position = Vector2(7118, 303)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk55" parent="." unique_id=1763492048 instance=ExtResource("10_esdvl")]
+position = Vector2(7369, 82)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk56" parent="." unique_id=1891766331 instance=ExtResource("5_xd6un")]
+position = Vector2(7301, 471)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk57" parent="." unique_id=81009241 instance=ExtResource("4_cj6vo")]
+position = Vector2(7474, -76)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk58" parent="." unique_id=1809892330 instance=ExtResource("5_xd6un")]
+position = Vector2(7684, 71)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk36" parent="." unique_id=489091434 instance=ExtResource("6_u7p8e")]
+position = Vector2(7386, 237)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk59" parent="." unique_id=1937785823 instance=ExtResource("7_tw565")]
+position = Vector2(7917, -93)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk37" parent="." unique_id=161548533 instance=ExtResource("8_hhvcl")]
+position = Vector2(8088, 74)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk38" parent="." unique_id=1865459897 instance=ExtResource("9_j2hqp")]
+position = Vector2(8339, -143)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk60" parent="." unique_id=394905075 instance=ExtResource("10_esdvl")]
+position = Vector2(8360, 221)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk39" parent="." unique_id=440189408 instance=ExtResource("8_hhvcl")]
+position = Vector2(8548, 70)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk61" parent="." unique_id=1650892066 instance=ExtResource("7_tw565")]
+position = Vector2(8673, 317)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk62" parent="." unique_id=1608294355 instance=ExtResource("7_tw565")]
+position = Vector2(8815, -84)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk40" parent="." unique_id=1225606096 instance=ExtResource("11_u61h2")]
+position = Vector2(8919, 120)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk63" parent="." unique_id=1657034991 instance=ExtResource("10_esdvl")]
+position = Vector2(9170, -101)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk64" parent="." unique_id=787072344 instance=ExtResource("5_xd6un")]
+position = Vector2(9102, 288)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk65" parent="." unique_id=265199947 instance=ExtResource("4_cj6vo")]
+position = Vector2(9209, 90)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk66" parent="." unique_id=1412723054 instance=ExtResource("5_xd6un")]
+position = Vector2(9419, 237)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk41" parent="." unique_id=453352087 instance=ExtResource("6_u7p8e")]
+position = Vector2(9121, 403)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk67" parent="." unique_id=707344989 instance=ExtResource("7_tw565")]
+position = Vector2(9652, 73)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk42" parent="." unique_id=1193431994 instance=ExtResource("8_hhvcl")]
+position = Vector2(9823, 240)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk43" parent="." unique_id=114304406 instance=ExtResource("9_j2hqp")]
+position = Vector2(10074, 23)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk68" parent="." unique_id=1909457908 instance=ExtResource("10_esdvl")]
+position = Vector2(10095, 387)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk44" parent="." unique_id=1466432905 instance=ExtResource("8_hhvcl")]
+position = Vector2(10283, 236)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk69" parent="." unique_id=2064339582 instance=ExtResource("7_tw565")]
+position = Vector2(10408, 483)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk70" parent="." unique_id=2115663186 instance=ExtResource("7_tw565")]
+position = Vector2(10550, 82)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk45" parent="." unique_id=928991395 instance=ExtResource("11_u61h2")]
+position = Vector2(10654, 286)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk71" parent="." unique_id=315197648 instance=ExtResource("10_esdvl")]
+position = Vector2(10905, 65)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk72" parent="." unique_id=635552747 instance=ExtResource("5_xd6un")]
+position = Vector2(10837, 454)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk73" parent="." unique_id=1120977262 instance=ExtResource("4_cj6vo")]
+position = Vector2(11090, -80)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk74" parent="." unique_id=153659241 instance=ExtResource("5_xd6un")]
+position = Vector2(11300, 67)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk46" parent="." unique_id=1167601751 instance=ExtResource("6_u7p8e")]
+position = Vector2(11002, 233)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk75" parent="." unique_id=941444006 instance=ExtResource("7_tw565")]
+position = Vector2(11533, -97)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk47" parent="." unique_id=953118482 instance=ExtResource("8_hhvcl")]
+position = Vector2(11704, 70)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk48" parent="." unique_id=1796641479 instance=ExtResource("9_j2hqp")]
+position = Vector2(11955, -147)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk76" parent="." unique_id=1242105845 instance=ExtResource("10_esdvl")]
+position = Vector2(11976, 217)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk49" parent="." unique_id=413010473 instance=ExtResource("8_hhvcl")]
+position = Vector2(12164, 66)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk77" parent="." unique_id=1775067355 instance=ExtResource("7_tw565")]
+position = Vector2(12289, 313)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk78" parent="." unique_id=638215197 instance=ExtResource("7_tw565")]
+position = Vector2(12431, -88)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk50" parent="." unique_id=1026289814 instance=ExtResource("11_u61h2")]
+position = Vector2(12535, 116)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk79" parent="." unique_id=2093219839 instance=ExtResource("10_esdvl")]
+position = Vector2(12826.2, 191.20001)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk80" parent="." unique_id=1170206677 instance=ExtResource("5_xd6un")]
+position = Vector2(12758.2, 580.2)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk81" parent="." unique_id=660938177 instance=ExtResource("4_cj6vo")]
+position = Vector2(12931.2, 33.200012)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk82" parent="." unique_id=593521225 instance=ExtResource("5_xd6un")]
+position = Vector2(13141.2, 180.20001)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk51" parent="." unique_id=318285669 instance=ExtResource("6_u7p8e")]
+position = Vector2(12843.2, 346.2)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk83" parent="." unique_id=156963302 instance=ExtResource("7_tw565")]
+position = Vector2(13374.2, 16.200012)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk52" parent="." unique_id=262801537 instance=ExtResource("8_hhvcl")]
+position = Vector2(13545.2, 183.20001)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk53" parent="." unique_id=1889173721 instance=ExtResource("9_j2hqp")]
+position = Vector2(13796.2, -33.799988)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk84" parent="." unique_id=697001471 instance=ExtResource("10_esdvl")]
+position = Vector2(13817.2, 330.2)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk54" parent="." unique_id=1242176547 instance=ExtResource("8_hhvcl")]
+position = Vector2(14005.2, 179.20001)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk85" parent="." unique_id=1628545542 instance=ExtResource("7_tw565")]
+position = Vector2(14130.2, 426.2)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk86" parent="." unique_id=359245044 instance=ExtResource("7_tw565")]
+position = Vector2(14272.2, 25.200012)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk55" parent="." unique_id=1133897828 instance=ExtResource("11_u61h2")]
+position = Vector2(14376.2, 229.20001)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk87" parent="." unique_id=1129746069 instance=ExtResource("10_esdvl")]
+position = Vector2(14587, -288)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk88" parent="." unique_id=803153241 instance=ExtResource("5_xd6un")]
+position = Vector2(14559.2, 397.2)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk89" parent="." unique_id=126993181 instance=ExtResource("4_cj6vo")]
+position = Vector2(14626, -97)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk90" parent="." unique_id=1989762123 instance=ExtResource("5_xd6un")]
+position = Vector2(14836, 50)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk56" parent="." unique_id=1476104639 instance=ExtResource("6_u7p8e")]
+position = Vector2(14578.2, 512.2)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk91" parent="." unique_id=2075745612 instance=ExtResource("7_tw565")]
+position = Vector2(15069, -114)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk57" parent="." unique_id=274208443 instance=ExtResource("8_hhvcl")]
+position = Vector2(15240, 53)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk58" parent="." unique_id=730388804 instance=ExtResource("9_j2hqp")]
+position = Vector2(15491, -164)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk92" parent="." unique_id=1185202810 instance=ExtResource("10_esdvl")]
+position = Vector2(15512, 200)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk59" parent="." unique_id=65311529 instance=ExtResource("8_hhvcl")]
+position = Vector2(15700, 49)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk93" parent="." unique_id=146062838 instance=ExtResource("7_tw565")]
+position = Vector2(15825, 296)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk94" parent="." unique_id=415345147 instance=ExtResource("7_tw565")]
+position = Vector2(15967, -105)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable junk60" parent="." unique_id=545765746 instance=ExtResource("11_u61h2")]
+position = Vector2(16071, 99)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk95" parent="." unique_id=1855414662 instance=ExtResource("10_esdvl")]
+position = Vector2(16322, -122)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="draggable eevel junk96" parent="." unique_id=511685872 instance=ExtResource("5_xd6un")]
+position = Vector2(16254, 267)
+scale = Vector2(1.6000001, 1.6000001)
+
+[node name="Sprite2D2" parent="." unique_id=1317617660 instance=ExtResource("12_dwjay")]
+position = Vector2(17038, 338)
+
+[connection signal="junkcollected" from="draggable junk" to="AnimatedSprite2D" method="_on_draggable_junk_junkcollected"]
+[connection signal="junkcollected" from="draggable junk2" to="AnimatedSprite2D" method="_on_draggable_junk_2_junkcollected"]
+[connection signal="junkcollected" from="draggable junk3" to="AnimatedSprite2D" method="_on_draggable_junk_3_junkcollected"]
+[connection signal="junkcollected" from="draggable junk4" to="AnimatedSprite2D" method="_on_draggable_junk_4_junkcollected"]
+[connection signal="junkcollected" from="draggable junk5" to="AnimatedSprite2D" method="_on_draggable_junk_5_junkcollected"]
+[connection signal="junkcollected" from="draggable junk6" to="AnimatedSprite2D" method="_on_draggable_junk_6_junkcollected"]
+[connection signal="junkcollected" from="draggable junk7" to="AnimatedSprite2D" method="_on_draggable_junk_7_junkcollected"]
+[connection signal="junkcollected" from="draggable junk8" to="AnimatedSprite2D" method="_on_draggable_junk_8_junkcollected"]
+[connection signal="junkcollected" from="draggable junk9" to="AnimatedSprite2D" method="_on_draggable_junk_9_junkcollected"]
+[connection signal="junkcollected" from="draggable junk10" to="AnimatedSprite2D" method="_on_draggable_junk_10_junkcollected"]
+[connection signal="junkcollected" from="draggable junk11" to="AnimatedSprite2D" method="_on_draggable_junk_11_junkcollected"]
+[connection signal="junkcollected" from="draggable junk12" to="AnimatedSprite2D" method="_on_draggable_junk_12_junkcollected"]
+[connection signal="junkcollected" from="draggable junk13" to="AnimatedSprite2D" method="_on_draggable_junk_13_junkcollected"]
+[connection signal="junkcollected" from="draggable junk14" to="AnimatedSprite2D" method="_on_draggable_junk_14_junkcollected"]
+[connection signal="junkcollected" from="draggable junk15" to="AnimatedSprite2D" method="_on_draggable_junk_15_junkcollected"]
+[connection signal="junkcollected" from="draggable junk16" to="AnimatedSprite2D" method="_on_draggable_junk_16_junkcollected"]
+[connection signal="junkcollected" from="draggable junk17" to="AnimatedSprite2D" method="_on_draggable_junk_17_junkcollected"]
+[connection signal="junkcollected" from="draggable junk18" to="AnimatedSprite2D" method="_on_draggable_junk_18_junkcollected"]
+[connection signal="junkcollected" from="draggable junk19" to="AnimatedSprite2D" method="_on_draggable_junk_19_junkcollected"]
+[connection signal="junkcollected" from="draggable junk20" to="AnimatedSprite2D" method="_on_draggable_junk_20_junkcollected"]
+[connection signal="junkcollected" from="draggable junk21" to="AnimatedSprite2D" method="_on_draggable_junk_21_junkcollected"]
+[connection signal="junkcollected" from="draggable junk22" to="AnimatedSprite2D" method="_on_draggable_junk_22_junkcollected"]
+[connection signal="junkcollected" from="draggable junk23" to="AnimatedSprite2D" method="_on_draggable_junk_23_junkcollected"]
+[connection signal="junkcollected" from="draggable junk24" to="AnimatedSprite2D" method="_on_draggable_junk_24_junkcollected"]
+[connection signal="junkcollected" from="draggable junk25" to="AnimatedSprite2D" method="_on_draggable_junk_25_junkcollected"]
+[connection signal="junkcollected" from="draggable junk26" to="AnimatedSprite2D" method="_on_draggable_junk_26_junkcollected"]
+[connection signal="junkcollected" from="draggable junk27" to="AnimatedSprite2D" method="_on_draggable_junk_27_junkcollected"]
+[connection signal="junkcollected" from="draggable junk28" to="AnimatedSprite2D" method="_on_draggable_junk_28_junkcollected"]
+[connection signal="junkcollected" from="draggable junk29" to="AnimatedSprite2D" method="_on_draggable_junk_29_junkcollected"]
+[connection signal="junkcollected" from="draggable junk30" to="AnimatedSprite2D" method="_on_draggable_junk_30_junkcollected"]
+[connection signal="junkcollected" from="draggable junk31" to="AnimatedSprite2D" method="_on_draggable_junk_31_junkcollected"]
+[connection signal="junkcollected" from="draggable junk32" to="AnimatedSprite2D" method="_on_draggable_junk_32_junkcollected"]
+[connection signal="junkcollected" from="draggable junk33" to="AnimatedSprite2D" method="_on_draggable_junk_33_junkcollected"]
+[connection signal="junkcollected" from="draggable junk34" to="AnimatedSprite2D" method="_on_draggable_junk_34_junkcollected"]
+[connection signal="junkcollected" from="draggable junk35" to="AnimatedSprite2D" method="_on_draggable_junk_35_junkcollected"]
+[connection signal="junkcollected" from="draggable junk36" to="AnimatedSprite2D" method="_on_draggable_junk_36_junkcollected"]
+[connection signal="junkcollected" from="draggable junk37" to="AnimatedSprite2D" method="_on_draggable_junk_37_junkcollected"]
+[connection signal="junkcollected" from="draggable junk38" to="AnimatedSprite2D" method="_on_draggable_junk_38_junkcollected"]
+[connection signal="junkcollected" from="draggable junk39" to="AnimatedSprite2D" method="_on_draggable_junk_39_junkcollected"]
+[connection signal="junkcollected" from="draggable junk40" to="AnimatedSprite2D" method="_on_draggable_junk_40_junkcollected"]
+[connection signal="junkcollected" from="draggable junk41" to="AnimatedSprite2D" method="_on_draggable_junk_41_junkcollected"]
+[connection signal="junkcollected" from="draggable junk42" to="AnimatedSprite2D" method="_on_draggable_junk_42_junkcollected"]
+[connection signal="junkcollected" from="draggable junk43" to="AnimatedSprite2D" method="_on_draggable_junk_43_junkcollected"]
+[connection signal="junkcollected" from="draggable junk44" to="AnimatedSprite2D" method="_on_draggable_junk_44_junkcollected"]
+[connection signal="junkcollected" from="draggable junk45" to="AnimatedSprite2D" method="_on_draggable_junk_45_junkcollected"]
+[connection signal="junkcollected" from="draggable junk46" to="AnimatedSprite2D" method="_on_draggable_junk_46_junkcollected"]
+[connection signal="junkcollected" from="draggable junk47" to="AnimatedSprite2D" method="_on_draggable_junk_47_junkcollected"]
+[connection signal="junkcollected" from="draggable junk48" to="AnimatedSprite2D" method="_on_draggable_junk_48_junkcollected"]
+[connection signal="junkcollected" from="draggable junk49" to="AnimatedSprite2D" method="_on_draggable_junk_49_junkcollected"]
+[connection signal="junkcollected" from="draggable junk50" to="AnimatedSprite2D" method="_on_draggable_junk_50_junkcollected"]
+[connection signal="junkcollected" from="draggable junk51" to="AnimatedSprite2D" method="_on_draggable_junk_51_junkcollected"]
+[connection signal="junkcollected" from="draggable junk52" to="AnimatedSprite2D" method="_on_draggable_junk_52_junkcollected"]
+[connection signal="junkcollected" from="draggable junk53" to="AnimatedSprite2D" method="_on_draggable_junk_53_junkcollected"]
+[connection signal="junkcollected" from="draggable junk54" to="AnimatedSprite2D" method="_on_draggable_junk_54_junkcollected"]
+[connection signal="junkcollected" from="draggable junk55" to="AnimatedSprite2D" method="_on_draggable_junk_55_junkcollected"]
+[connection signal="junkcollected" from="draggable junk56" to="AnimatedSprite2D" method="_on_draggable_junk_56_junkcollected"]
+[connection signal="junkcollected" from="draggable junk57" to="AnimatedSprite2D" method="_on_draggable_junk_57_junkcollected"]
+[connection signal="junkcollected" from="draggable junk58" to="AnimatedSprite2D" method="_on_draggable_junk_58_junkcollected"]
+[connection signal="junkcollected" from="draggable junk59" to="AnimatedSprite2D" method="_on_draggable_junk_59_junkcollected"]
+[connection signal="junkcollected" from="draggable junk60" to="AnimatedSprite2D" method="_on_draggable_junk_60_junkcollected"]

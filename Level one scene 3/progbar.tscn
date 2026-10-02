@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://m28hj5uaml07"]
+
+[ext_resource type="Texture2D" uid="uid://b2c5mgvtum2x0" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarEmpty.png" id="1_cli6r"]
+[ext_resource type="Texture2D" uid="uid://baycbi54s3tui" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart1.png" id="2_05mfj"]
+[ext_resource type="Texture2D" uid="uid://d2nvcd2n5xtsh" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart2.png" id="3_d3rmx"]
+[ext_resource type="Texture2D" uid="uid://ptqueui2riq0" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart3.png" id="4_thp1b"]
+[ext_resource type="Texture2D" uid="uid://lomgdy7278nk" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart4.png" id="5_xo4po"]
+[ext_resource type="Texture2D" uid="uid://d1a27brsf56sp" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart5.png" id="6_pfxsn"]
+[ext_resource type="Texture2D" uid="uid://c2in3ifvf630k" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart6.png" id="7_uxuui"]
+[ext_resource type="Texture2D" uid="uid://wdhx8if0k1ic" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart7.png" id="8_xanjd"]
+[ext_resource type="Texture2D" uid="uid://di1sq03qnh0vk" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart8.png" id="9_iff1k"]
+[ext_resource type="Texture2D" uid="uid://bntpo28xrallm" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart9.png" id="10_241tr"]
+[ext_resource type="Texture2D" uid="uid://xn4kcfsvf16" path="res://Level one scene 3/bar/kiwiHacksSpaceProgressBarpart10.png" id="11_s0sku"]
+[ext_resource type="Script" uid="uid://pm7b7q438440" path="res://Level one scene 3/progressbarscript.gd" id="12_ittjj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fopm6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cli6r")
+}],
+"loop": 1,
+"name": &"0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_05mfj")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_d3rmx")
+}],
+"loop": 1,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_thp1b")
+}],
+"loop": 1,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_xo4po")
+}],
+"loop": 1,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_pfxsn")
+}],
+"loop": 1,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_uxuui")
+}],
+"loop": 1,
+"name": &"6",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_xanjd")
+}],
+"loop": 1,
+"name": &"7",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_iff1k")
+}],
+"loop": 1,
+"name": &"8",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_241tr")
+}],
+"loop": 1,
+"name": &"9",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_s0sku")
+}],
+"loop": 1,
+"name": &"ten",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=2127577199]
+sprite_frames = SubResource("SpriteFrames_fopm6")
+animation = &"0"
+script = ExtResource("12_ittjj")

@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://bbhcnm5akr6u8"]
+
+[ext_resource type="Script" uid="uid://c1mspulx0tv3w" path="res://level one scene 4/scripts/puzzle_base.gd" id="2_6snkf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fopm6"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"6",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"7",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fopm6"]
+radius = 70.93659
+
+[node name="puzzle-base" type="AnimatedSprite2D" unique_id=1311141709]
+sprite_frames = SubResource("SpriteFrames_fopm6")
+animation = &"1"
+script = ExtResource("2_6snkf")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1887943842 groups=["puzzlebase"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1305637869]
+shape = SubResource("CircleShape2D_fopm6")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

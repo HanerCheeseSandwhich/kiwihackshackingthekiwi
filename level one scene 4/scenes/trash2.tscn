@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://658ku7x6gvxh"]
+
+[ext_resource type="Texture2D" uid="uid://d4dsl18n2fn6l" path="res://level one scene 4/texturessssssuhhhhhhhh/kiwiHacksPuzzlePieceMetal2.png" id="1_x2sgf"]
+[ext_resource type="Script" uid="uid://6sfsu8bvdts" path="res://level one scene 4/scripts/Trashscript.gd" id="2_x2nk5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l6t17"]
+radius = 40.1995
+
+[node name="Sprite2D" type="Sprite2D" unique_id=666617764]
+texture = ExtResource("1_x2sgf")
+script = ExtResource("2_x2nk5")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1132891072]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=415906491]
+position = Vector2(35, 34)
+shape = SubResource("CircleShape2D_l6t17")

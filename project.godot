@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Kiwis hacking the hack"
-run/main_scene="res://level_grabby.tscn"
+run/main_scene="uid://kh8yt8cq2t02"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
@@ -23,6 +23,8 @@ window/size/viewport_width=1280
 
 bag=""
 junk=""
+puzzlebase=""
+trash=""
 
 [physics]
 

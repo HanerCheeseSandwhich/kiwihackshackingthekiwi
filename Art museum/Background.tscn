@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cqaiuk4xn5nl7"]
+
+[ext_resource type="Texture2D" uid="uid://bjo73bsrv3twh" path="res://Art museum/art/kiwiHacksBackgroundGameScreen4.png" id="1_lekve"]
+[ext_resource type="Texture2D" uid="uid://of7urdpvgkfn" path="res://Art museum/art/kiwiHacksBackgroundGameScreen4overleigh.png" id="2_tvvg6"]
+[ext_resource type="Script" uid="uid://d0fflwbcahdvh" path="res://Art museum/sprite_2d.gd" id="3_64dj7"]
+
+[node name="Background" type="Sprite2D" unique_id=1241655732]
+texture_filter = 1
+position = Vector2(654.00006, 330)
+scale = Vector2(3.9916673, 3.991667)
+texture = ExtResource("1_lekve")
+
+[node name="67meow" type="Sprite2D" parent="." unique_id=1778962831]
+texture = ExtResource("2_tvvg6")
+script = ExtResource("3_64dj7")
