@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://487phwi4j6tu"]
 
-[ext_resource type="Texture2D" uid="uid://csdnhyq5v40n0" path="res://Play screen/kiwiHacksBackgroundScreen2.png" id="1_d5p72"]
+[ext_resource type="Texture2D" uid="uid://btk2hsdjx4rde" path="res://Play screen/textures/kiwiHacksBackgroundGameScreen1.png" id="1_oc3lv"]
 
 [node name="justin bieber" type="Sprite2D" unique_id=340478057]
-position = Vector2(641.1361, 350.5)
-scale = Vector2(3.8944445, 3.8944445)
-texture = ExtResource("1_d5p72")
+texture_filter = 1
+position = Vector2(644, 342)
+scale = Vector2(4.05, 3.8000002)
+texture = ExtResource("1_oc3lv")

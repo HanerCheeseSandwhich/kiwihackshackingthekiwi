@@ -5,9 +5,13 @@
 [ext_resource type="PackedScene" uid="uid://bbhcnm5akr6u8" path="res://level one scene 4/scenes/puzzle_base.tscn" id="3_8dpsg"]
 [ext_resource type="PackedScene" uid="uid://658ku7x6gvxh" path="res://level one scene 4/scenes/trash2.tscn" id="3_tcyk3"]
 [ext_resource type="PackedScene" uid="uid://t44age2mdwcg" path="res://level one scene 4/scenes/trash3.tscn" id="4_fggmm"]
+[ext_resource type="Script" uid="uid://dw1g52t3hqtut" path="res://level one scene 4/scripts/Trashscript2.gd" id="4_t821m"]
 [ext_resource type="PackedScene" uid="uid://cv05mihq4ocxa" path="res://level one scene 4/scenes/trash4.tscn" id="5_t821m"]
 [ext_resource type="PackedScene" uid="uid://ods4sfjycph5" path="res://level one scene 4/scenes/trash5.tscn" id="6_ld10d"]
+[ext_resource type="Script" uid="uid://d12ft21y6cr67" path="res://level one scene 4/scripts/Trashscript3.gd" id="6_yaw2t"]
 [ext_resource type="PackedScene" uid="uid://dribrqgncecct" path="res://level one scene 4/scenes/magicpaintbrush.tscn" id="8_fggmm"]
+[ext_resource type="Script" uid="uid://budqgtebqmqdx" path="res://level one scene 4/scripts/Trashscript4.gd" id="8_yaw2t"]
+[ext_resource type="Script" uid="uid://cpjeat4usbaev" path="res://level one scene 4/scripts/Trashscript5.gd" id="10_pcocn"]
 
 [node name="Workshop" type="Node2D" unique_id=84307677]
 
@@ -21,26 +25,35 @@ scale = Vector2(2.2400002, 2.2400002)
 [node name="tt" parent="." unique_id=386895242 groups=["trash"] instance=ExtResource("3_tcyk3")]
 position = Vector2(106, 8)
 scale = Vector2(2.2400007, 2.2400007)
+script = ExtResource("4_t821m")
 
 [node name="ttt" parent="." unique_id=1737865662 groups=["trash"] instance=ExtResource("4_fggmm")]
 position = Vector2(413.99988, 140.99997)
 scale = Vector2(2.2400007, 2.2400007)
+script = ExtResource("6_yaw2t")
 
 [node name="tttt" parent="." unique_id=1369918346 groups=["trash"] instance=ExtResource("5_t821m")]
 position = Vector2(1041, 246.99998)
 scale = Vector2(2.2400007, 2.2400007)
+script = ExtResource("8_yaw2t")
 
 [node name="tttttt" parent="." unique_id=2049912009 groups=["trash"] instance=ExtResource("6_ld10d")]
 position = Vector2(194, 387)
 scale = Vector2(2.2400007, 2.2400007)
+script = ExtResource("10_pcocn")
 
 [node name="puzzle-base" parent="." unique_id=1311141709 groups=["puzzlebase"] instance=ExtResource("3_8dpsg")]
 position = Vector2(677, 298.5)
 scale = Vector2(3.2812502, 3.6484375)
 animation = &"2"
 
-[node name="Sprite2D" parent="." unique_id=1080558132 instance=ExtResource("8_fggmm")]
+[node name="magick paintbrush" parent="." unique_id=1080558132 instance=ExtResource("8_fggmm")]
 position = Vector2(1226, 583.99994)
 scale = Vector2(3.0444446, 3.0444446)
 
 [connection signal="ppp" from="puzzle-base" to="t" method="_on_puzzlebase_ppp"]
+[connection signal="paint" from="magick paintbrush" to="t" method="_on_magick_paintbrush_paint"]
+[connection signal="paint" from="magick paintbrush" to="tt" method="_on_magick_paintbrush_paint"]
+[connection signal="paint" from="magick paintbrush" to="ttt" method="_on_magick_paintbrush_paint"]
+[connection signal="paint" from="magick paintbrush" to="tttt" method="_on_magick_paintbrush_paint"]
+[connection signal="paint" from="magick paintbrush" to="tttttt" method="_on_magick_paintbrush_paint"]

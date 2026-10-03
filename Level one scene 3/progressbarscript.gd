@@ -12,6 +12,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if $".".animation == "ten":
 		print('hi')
+		get_tree().change_scene_to_file("res://level one scene 4/scenes/workshop.tscn")
 
    
 	

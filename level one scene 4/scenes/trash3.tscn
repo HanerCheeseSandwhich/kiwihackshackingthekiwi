@@ -6,7 +6,8 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_l6t17"]
 radius = 45.01111
 
-[node name="Sprite2D" type="Sprite2D" unique_id=666617764]
+[node name="Sprite2D" type="Sprite2D" unique_id=1715456687]
+texture_filter = 1
 texture = ExtResource("1_4u333")
 script = ExtResource("2_g5ynw")
 

@@ -2,6 +2,7 @@ extends Sprite2D
 var isdragging = false
 var mouseoffset
 var delay = 10
+signal paint
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -24,3 +25,7 @@ func _input(event):
 		else:
 			
 			isdragging = false
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	emit_signal("paint")

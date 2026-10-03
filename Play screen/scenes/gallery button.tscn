@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bo07uw34lgq2i"]
+
+[ext_resource type="Script" uid="uid://brfbgept8qgn4" path="res://Play screen/Scripts/gallerybutton.gd" id="1_rr17l"]
+[ext_resource type="Texture2D" uid="uid://dwqmeesqxs2yu" path="res://Play screen/textures/kiwiHacksHomeScreenGalleryButtonCropped.png" id="2_166ox"]
+
+[node name="Node2D" type="Node2D" unique_id=141233549]
+script = ExtResource("1_rr17l")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=2079252528]
+texture_filter = 1
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("2_166ox")
+texture_pressed = ExtResource("2_166ox")
+texture_hover = ExtResource("2_166ox")
+texture_disabled = ExtResource("2_166ox")
+texture_focused = ExtResource("2_166ox")
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

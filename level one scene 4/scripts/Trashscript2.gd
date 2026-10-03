@@ -35,7 +35,4 @@ func _on_puzzlebase_ppp() -> void:
 
 
 func _on_magick_paintbrush_paint() -> void:
-	print('hi')
-	texture = load("res://level one scene 4/texturessssssuhhhhhhhh/kiwiHacksPuzzlePiecephoto1.png")
-	await get_tree().create_timer(1.5).timeout
-	get_tree().change_scene_to_file("res://Art museum/art_gallery.tscn")
+	texture = load("res://level one scene 4/texturessssssuhhhhhhhh/kiwiHacksPuzzlePiecePhoto2.png")

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://pyrqk3he13mb"]
+
+[ext_resource type="Texture2D" uid="uid://dmovpgw1tkc2k" path="res://Play screen/textures/kiwiHacksTitalArt.png" id="1_ou7i6"]
+
+[node name="Node2D" type="Node2D" unique_id=1701687076]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2018125843]
+texture = ExtResource("1_ou7i6")

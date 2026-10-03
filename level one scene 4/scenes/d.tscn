@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://boy8btdjxrg3h" path="res://level one scene 4/WhatsApp Image 2026-10-03 at 8.20.59 AM.jpeg" id="1_l6t17"]
 
 [node name="Sprite2D" type="Sprite2D" unique_id=930435103]
+texture_filter = 1
 position = Vector2(623, 362)
 scale = Vector2(4.0944443, 4.0944443)
 texture = ExtResource("1_l6t17")

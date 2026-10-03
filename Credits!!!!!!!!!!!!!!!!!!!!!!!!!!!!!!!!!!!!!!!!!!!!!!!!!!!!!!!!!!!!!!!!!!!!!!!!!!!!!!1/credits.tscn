@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://ctxmd816vuyh7"]
+
+[ext_resource type="Script" uid="uid://ce3hyei3edh1e" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/scripts/credits.gd" id="1_hbh3s"]
+[ext_resource type="Texture2D" uid="uid://bfoib1dv7x3vf" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/Textures/KiwiHacksCreditsUpdated.png" id="2_fekh5"]
+
+[node name="Node2D" type="Node2D" unique_id=1372578031]
+script = ExtResource("1_hbh3s")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=69453954]
+texture_filter = 1
+position = Vector2(650, 711.00006)
+scale = Vector2(4.0277777, 4.0277777)
+texture = ExtResource("2_fekh5")
