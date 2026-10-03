@@ -7,5 +7,8 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	$".".self_modulate.a = 0.1
+	# Call this function whenever the player finishes making the art piece
+func play_art_reveal():
+	$AnimationPlayer.play("reveal_art")

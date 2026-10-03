@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://brnj3dn8siwwf"]
-
-[ext_resource type="PackedScene" uid="uid://cqaiuk4xn5nl7" path="res://Art museum/Background.tscn" id="1_hs63k"]
-
-[node name="Art gallery" type="Node2D" unique_id=911444481]
-
-[node name="Background" parent="." unique_id=1241655732 instance=ExtResource("1_hs63k")]
