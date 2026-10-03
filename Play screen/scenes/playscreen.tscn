@@ -3,8 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://487phwi4j6tu" path="res://Play screen/scenes/jb.tscn" id="1_ry06n"]
 [ext_resource type="PackedScene" uid="uid://bwyvc52dm6di" path="res://Play screen/scenes/exit button.tscn" id="2_0d2qn"]
 [ext_resource type="PackedScene" uid="uid://8xs81uydmwou" path="res://Play screen/scenes/play button.tscn" id="3_0d2qn"]
-[ext_resource type="PackedScene" uid="uid://bo07uw34lgq2i" path="res://Play screen/scenes/gallery button.tscn" id="4_jaiie"]
 [ext_resource type="PackedScene" uid="uid://pyrqk3he13mb" path="res://Play screen/scenes/title.tscn" id="5_84i8w"]
+[ext_resource type="PackedScene" uid="uid://cxvm6ji33lg37" path="res://Play screen/scenes/info button.tscn" id="6_fser2"]
 [ext_resource type="PackedScene" uid="uid://djv0noaq0d24n" path="res://Play screen/scenes/creditsbutton.tscn" id="6_lfsqq"]
 
 [node name="Node2D" type="Node2D" unique_id=523408972]
@@ -19,10 +19,6 @@ scale = Vector2(2.5599995, 2.5599995)
 position = Vector2(-3.000001, 433)
 scale = Vector2(3.079999, 3.079999)
 
-[node name="gallerybutton" parent="." unique_id=141233549 instance=ExtResource("4_jaiie")]
-position = Vector2(-7, 317)
-scale = Vector2(2.9200006, 2.9200006)
-
 [node name="tital" parent="." unique_id=1701687076 instance=ExtResource("5_84i8w")]
 texture_filter = 1
 position = Vector2(603, 173)
@@ -32,3 +28,8 @@ scale = Vector2(2.8799987, 2.8799987)
 texture_filter = 1
 position = Vector2(986, 414)
 scale = Vector2(3.4849582, 3.4849582)
+
+[node name="InfoButton" parent="." unique_id=1362254014 instance=ExtResource("6_fser2")]
+texture_filter = 1
+position = Vector2(-13.999998, 267)
+scale = Vector2(3.0800014, 3.0800014)

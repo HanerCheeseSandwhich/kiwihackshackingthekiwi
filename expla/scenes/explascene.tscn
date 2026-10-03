@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cqer37ieu0p0i"]
+
+[ext_resource type="PackedScene" uid="uid://ghibl08cr7o1" path="res://expla/scenes/explanation img.tscn" id="1_0u0ei"]
+[ext_resource type="PackedScene" uid="uid://cvvd6lxkemeb4" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/close.tscn" id="2_od4sd"]
+
+[node name="Explascene" type="Node2D" unique_id=1047030179]
+
+[node name="ExplanationImg" parent="." unique_id=2011184497 instance=ExtResource("1_0u0ei")]
+texture_filter = 1
+
+[node name="Node2D" parent="." unique_id=599619389 instance=ExtResource("2_od4sd")]
+texture_filter = 1
+position = Vector2(1139, -73)
+scale = Vector2(2.3600001, 2.3600001)

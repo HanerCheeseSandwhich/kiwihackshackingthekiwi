@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ghibl08cr7o1"]
+
+[ext_resource type="Texture2D" uid="uid://dbpvo6t5sxvk8" path="res://expla/textures/kiwiHacksMechanicsExplanation (2).png" id="1_6n6wm"]
+
+[node name="ExplanationImg" type="Node2D" unique_id=2011184497]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1897237217]
+position = Vector2(637.55554, 340.25003)
+scale = Vector2(4.5861106, 4.5861115)
+texture = ExtResource("1_6n6wm")

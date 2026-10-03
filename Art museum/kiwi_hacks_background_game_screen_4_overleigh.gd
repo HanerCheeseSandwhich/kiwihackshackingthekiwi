@@ -12,3 +12,5 @@ func _process(_delta: float) -> void:
 	# Call this function whenever the player finishes making the art piece
 func play_art_reveal():
 	$AnimationPlayer.play("reveal_art")
+	await get_tree().create_timer(3.5).timeout
+	get_tree().change_scene_to_file(")

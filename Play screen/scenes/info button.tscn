@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cxvm6ji33lg37"]
+
+[ext_resource type="Script" uid="uid://xh1l1y4k62bn" path="res://Play screen/scenes/info_button.gd" id="1_j5nrs"]
+[ext_resource type="Texture2D" uid="uid://ds4uci8dvtibf" path="res://Play screen/textures/kiwiHacksHomeScreenInformationButtonCropped.png" id="2_wrukd"]
+
+[node name="InfoButton" type="Node2D" unique_id=1362254014]
+script = ExtResource("1_j5nrs")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=2109863892]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("2_wrukd")
+texture_pressed = ExtResource("2_wrukd")
+texture_hover = ExtResource("2_wrukd")
+texture_disabled = ExtResource("2_wrukd")
+texture_focused = ExtResource("2_wrukd")
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
