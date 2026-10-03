@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cvvd6lxkemeb4"]
+
+[ext_resource type="Script" uid="uid://b40bjub3jg8as" path="res://node_2d.gd" id="1_vckc0"]
+[ext_resource type="Texture2D" uid="uid://bvk10tpakdhpf" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/kiwiHacksCloseScreenButton.png" id="2_1jdsk"]
+
+[node name="Node2D" type="Node2D" unique_id=599619389]
+script = ExtResource("1_vckc0")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1709330058]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("2_1jdsk")
+texture_pressed = ExtResource("2_1jdsk")
+texture_hover = ExtResource("2_1jdsk")
+texture_disabled = ExtResource("2_1jdsk")
+texture_focused = ExtResource("2_1jdsk")
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

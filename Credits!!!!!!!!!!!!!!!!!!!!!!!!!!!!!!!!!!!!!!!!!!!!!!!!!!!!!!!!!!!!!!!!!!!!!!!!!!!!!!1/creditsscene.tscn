@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dlqkqewquj24n" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/GAY.tscn" id="1_3av7q"]
 [ext_resource type="PackedScene" uid="uid://ctxmd816vuyh7" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/credits.tscn" id="2_1yv5a"]
+[ext_resource type="PackedScene" uid="uid://cvvd6lxkemeb4" path="res://Credits!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1/close.tscn" id="3_1yv5a"]
 
 [node name="creditsscene" type="Node2D" unique_id=1614329746]
 
@@ -9,3 +10,8 @@
 
 [node name="Node2D" parent="." unique_id=1372578031 instance=ExtResource("2_1yv5a")]
 position = Vector2(-11, 0)
+
+[node name="Node2D3" parent="." unique_id=599619389 instance=ExtResource("3_1yv5a")]
+texture_filter = 1
+position = Vector2(1153, -65)
+scale = Vector2(2.2, 2.2)

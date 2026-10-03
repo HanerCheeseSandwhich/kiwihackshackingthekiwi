@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://4pqund3nukl7"]
 
-[ext_resource type="Texture2D" uid="uid://7hjkr5wjdxpd" path="res://art museum/kiwiHacksBackgroundGameScreen4.png" id="1_ehksx"]
-[ext_resource type="Texture2D" uid="uid://8sf7ck5yssil" path="res://art museum/kiwiHacksClippingLayer.png" id="2_p04jl"]
-[ext_resource type="Texture2D" uid="uid://bvs201782npku" path="res://art museum/kiwiHacksPuzzleReference1.png" id="3_gefdk"]
-[ext_resource type="Texture2D" uid="uid://cxr3ldllxb7w7" path="res://art museum/kiwiHacksBackgroundGameScreen4overleigh.png" id="4_y5xde"]
-[ext_resource type="Script" uid="uid://bkx2fmvl3nps7" path="res://art museum/kiwi_hacks_background_game_screen_4_overleigh.gd" id="5_kqieu"]
+[ext_resource type="Texture2D" uid="uid://7hjkr5wjdxpd" path="res://Art museum/kiwiHacksBackgroundGameScreen4.png" id="1_ehksx"]
+[ext_resource type="Texture2D" uid="uid://8sf7ck5yssil" path="res://Art museum/kiwiHacksClippingLayer.png" id="2_p04jl"]
+[ext_resource type="Texture2D" uid="uid://bvs201782npku" path="res://Art museum/kiwiHacksPuzzleReference1.png" id="3_gefdk"]
+[ext_resource type="Texture2D" uid="uid://cxr3ldllxb7w7" path="res://Art museum/kiwiHacksBackgroundGameScreen4overleigh.png" id="4_y5xde"]
+[ext_resource type="Script" uid="uid://bkx2fmvl3nps7" path="res://Art museum/kiwi_hacks_background_game_screen_4_overleigh.gd" id="5_kqieu"]
 
 [sub_resource type="Animation" id="Animation_q6r6c"]
 length = 0.001
@@ -44,20 +44,24 @@ _data = {
 }
 
 [node name="Node2D" type="Node2D" unique_id=231258618]
+scale = Vector2(1.118325, 1.118325)
 
 [node name="bg" type="Sprite2D" parent="." unique_id=1183095786]
+texture_filter = 1
 position = Vector2(584, 323)
 scale = Vector2(3.5946064, 3.5939572)
 texture = ExtResource("1_ehksx")
 
 [node name="clippingmaskbg" type="Sprite2D" parent="bg" unique_id=1111142259]
 clip_children = 1
+texture_filter = 1
 position = Vector2(4.312013, 1.391221)
 scale = Vector2(1.0371442, 0.9924064)
 texture = ExtResource("2_p04jl")
 
 [node name="art" type="Sprite2D" parent="bg/clippingmaskbg" unique_id=576991478]
 modulate = Color(0.6666667, 0.6666667, 0.6666667, 0)
+texture_filter = 1
 position = Vector2(-73.36129, -4.7663574)
 scale = Vector2(0.7099748, 0.91744566)
 texture = ExtResource("3_gefdk")
@@ -68,6 +72,7 @@ autoplay = &"reveal_art"
 
 [node name="KiwiHacksBackgroundGameScreen4Overleigh" type="Sprite2D" parent="." unique_id=208145454]
 visible = false
+texture_filter = 1
 position = Vector2(747.50006, 402.99997)
 scale = Vector2(5.5281253, 6.6777773)
 texture = ExtResource("4_y5xde")
